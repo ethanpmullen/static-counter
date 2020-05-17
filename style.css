@@ -8,24 +8,28 @@ header {
     background-color: #3EB489;
     height: 12vh;
     background-size: cover;
-    
+}
+
+header.row {
+    margin-top: 30px
 }
 .main-nav
 {
     float:right;
     list-style: none;
-    margin-top: 30px
 }
 .main-nav li
 {
+    margin-top: 30px;
     display: inline-block;
 }
 .main-nav li a
 {
+    
     color: white;
     padding: 3px 5px;
-    font-family: "Akrobat Black";
-    font-size: 24px;
+    font-family: "Akrobat Light";
+    font-size: 18px;
 }
 
 /* This is not working? */
@@ -37,4 +41,13 @@ header {
 .main-nav li a:hover
 {
     color: black;
+}
+
+.title{
+    margin-top: 10;
+    color: white;
+    font-family: "Akrobat Black";
+    float: left;
+    font-size: 50;
+    padding: 3px 5px;
 }
