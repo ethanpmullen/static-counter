@@ -1,0 +1,40 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #3EB489;
+    height: 12vh;
+    background-size: cover;
+    
+}
+.main-nav
+{
+    float:right;
+    list-style: none;
+    margin-top: 30px
+}
+.main-nav li
+{
+    display: inline-block;
+}
+.main-nav li a
+{
+    color: white;
+    padding: 3px 5px;
+    font-family: "Akrobat Black";
+    font-size: 24px;
+}
+
+/* This is not working? */
+.main-nav li.active.a
+{
+    border: 1 px solid white;
+}
+
+.main-nav li a:hover
+{
+    color: black;
+}
