@@ -53,3 +53,15 @@ header.row {
     font-size: 50;
     padding: 3px 5px;
 }
+
+h1{
+    text-align: center;
+}
+
+.counter{
+    background-color: darkgray;
+    width: 100 px;
+    height: 100px;
+    display: inline-block;
+    border-radius: 25px;
+}
