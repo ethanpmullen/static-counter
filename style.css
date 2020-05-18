@@ -58,7 +58,9 @@ h1{
     text-align: center;
 }
 
-.counter{
+
+
+#counter{
     background-color: darkgray;
     width: 100 px;
     height: 100px;
