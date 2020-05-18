@@ -54,15 +54,32 @@ header.row {
     padding: 3px 5px;
 }
 
-h1{
+.counter{
     text-align: center;
+    margin-top: 30px;
+    font-family: "Akrobat Black";
+    font-size: 80px;
 }
-
-
 
 #counter{
     background-color: darkgray;
-    width: 100 px;
+    width: 300px;
+    height: 100px;
+    display: inline-block;
+    border-radius: 25px;
+}
+
+.buttons{
+    text-align: center;
+    margin-top: 30px;
+    font-family: "Akrobat Black";
+    font-size: 60px;
+    color: black;
+}
+
+#up{
+    background-color: #C7EA46;
+    width: 200px;
     height: 100px;
     display: inline-block;
     border-radius: 25px;
