@@ -6,7 +6,7 @@
 
 header {
     background-color: #3EB489;
-    height: 12vh;
+    height: 80px;
     background-size: cover;
 }
 
@@ -29,7 +29,7 @@ header.row {
     
     color: white;
     padding: 3px 5px;
-    font-family: "Akrobat Light";
+    font-family: "Arial Narrow";
     font-size: 18px;
 }
 
@@ -43,7 +43,8 @@ header.row {
     margin-top: 10;
     text-align: center;
     color: white;
-    font-family: "Akrobat Black";
+    font-family: "Arial Narrow";
+    font-weight: "Bold Italic";
     float: left;
     font-size: 50;
     padding: 3px 5px;
@@ -64,7 +65,7 @@ header.row {
     border-radius: 25px;
 }
 
-.buttons{
+.button{
     text-align: center;
     padding: 10px 10px;
     margin-top: 30px;
@@ -84,16 +85,16 @@ button{
     
 }
 
-#up{
+#upArrowToIncrement{
     background-color: #C7EA46;
 }
 
-#down{
+#downArrowToDecrement{
     background-color: #E85B51;
   
 }
 
-#reset{
+#resetButton{
     background-color: white;
     border: 2px solid black;
     width: 300px;
