@@ -1,5 +1,4 @@
-*
-{
+* {
     margin: 0;
     padding: 0;
 }
@@ -7,97 +6,99 @@
 header {
     background-color: #3EB489;
     height: 80px;
-    background-size: cover;
 }
 
-header.row {
-    margin-top: 30px
-}
-.main-nav
-{
-    float:right;
+.headerWrapper {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
     list-style: none;
 }
-.main-nav li
-{
+
+.title {
+    order: 1;
+    color: white;
+    font-family: "Arial Narrow";
+    font-weight: bold;
+    font-size: 50px;
+    padding: 3px 5px;
+}
+
+.navigationWrapper {
+    float: right;
+    order: 2;
+    text-decoration: none;
+    display: block;
+}
+
+.navBar {
+    padding: 1em;
+    list-style: none;
+}
+
+.navBar li {
     margin-top: 30px;
-    margin-right: 20px; 
+    margin-right: 20px;
     display: inline-block;
 }
-.main-nav li a
-{
-    
+
+.navBar li a {
     color: white;
-    padding: 3px 5px;
     font-family: "Arial Narrow";
     font-size: 18px;
 }
 
-
-.main-nav li a:hover
-{
+.navBar li a:hover {
     color: black;
 }
 
-.title{
-    margin-top: 10;
-    text-align: center;
-    color: white;
-    font-family: "Arial Narrow";
-    font-weight: "Bold Italic";
-    float: left;
-    font-size: 50;
-    padding: 3px 5px;
-}
-
-.counter{
+.counterWrapper {
     text-align: center;
     margin-top: 30px;
-    font-family: "Akrobat Black";
+    font-family: "Arial Narrow";
     font-size: 80px;
 }
 
-#counter{
+#counter {
     background-color: darkgray;
     width: 300px;
     height: 100px;
-    display: inline-block;
     border-radius: 25px;
 }
 
-.button{
+.button {
     text-align: center;
-    padding: 10px 10px;
     margin-top: 30px;
 }
 
-button{
+button {
     height: 100px;
     color: black;
     border-radius: 25px;
 }
 
-.counting{
+.counting {
     width: 200px;
     display: inline-block;
     font-family: "Akrobat Black";
     font-size: 60px;
-    
 }
 
-#upArrowToIncrement{
+#upArrowToIncrement {
     background-color: #C7EA46;
 }
 
-#downArrowToDecrement{
+#downArrowToDecrement {
     background-color: #E85B51;
-  
 }
 
-#resetButton{
+#resetButton {
     background-color: white;
     border: 2px solid black;
     width: 300px;
-    font-family: "Akrobat Light";
+    font-family: "Arial narrow";
     font-size: 60px;
 }
