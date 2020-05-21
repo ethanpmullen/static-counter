@@ -4,7 +4,7 @@
 }
 
 header {
-    background-color: #3EB489;
+    background-color: #75ACC0;
     height: 80px;
 }
 
@@ -65,7 +65,7 @@ header {
 }
 
 #currentCount {
-    background-color: darkgray;
+    background-color: #E4D8B4;
     width: 300px;
     height: 100px;
     border-radius: 25px;
@@ -75,7 +75,7 @@ header {
     display: flex;
     justify-content: center;
     text-align: center;
-    margin-top: 30px;
+    padding: 30px 10px;
 }
 
 button {
@@ -89,14 +89,16 @@ button {
     display: inline-block;
     font-family: "Arial Narrow";
     font-size: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 #upArrowToIncrement {
-    background-color: #C7EA46;
+    background-color: #50C878;
 }
 
 #downArrowToDecrement {
-    background-color: #E85B51;
+    background-color: #E86F68;
 }
 
 #resetButton {
